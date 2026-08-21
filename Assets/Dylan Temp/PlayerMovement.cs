@@ -7,16 +7,17 @@ public class PlayerMovement : MonoBehaviour
     [Header("Camera")]
     [SerializeField] private Camera playerCamera;
     [SerializeField] private Vector2 cameraOffset;
-    [SerializeField] private float cameraSmoothSpeed = 5f;
     [SerializeField] private float smoothSpeed = 5f;
 
 
     public float moveSpeed = 5f;
-    public float jumpForce = 10f;
 
+    public float jumpForce = 10f;
+    public float jumpCutMultiplier = 0.5f;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
+    public float fallMultiplier = 2.5f;
 
     public GameObject spritePlayer;
 
@@ -45,6 +46,22 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
+        // Jump released early
+        if (Input.GetKeyUp(KeyCode.Space) && rb.linearVelocity.y > 0)
+        {
+            rb.linearVelocity = new Vector2(
+                rb.linearVelocity.x,
+                rb.linearVelocity.y * jumpCutMultiplier
+            );
+        }
+
+        if (rb.linearVelocity.y < 0)
+        {
+            rb.linearVelocity += Vector2.up * Physics2D.gravity.y *
+                           (fallMultiplier - 1) *
+                           Time.fixedDeltaTime;
+        }
+        // Flip the sprite based on movement direction
         if (moveInput > 0)
             spritePlayer.GetComponent<SpriteRenderer>().flipX = false;
         else if (moveInput < 0)

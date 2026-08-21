@@ -1334,6 +1334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6958384967187144457, guid: 71fd8f72bd98fc0478b26b74ffb38b4c, type: 3}
+      propertyPath: fallMultiplier
+      value: 1.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
