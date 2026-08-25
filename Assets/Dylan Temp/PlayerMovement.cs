@@ -3,13 +3,16 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Gun")]
+    public GameObject gunPrefab;
+
 
     [Header("Camera")]
     [SerializeField] private Camera playerCamera;
     [SerializeField] private Vector2 cameraOffset;
     [SerializeField] private float smoothSpeed = 5f;
 
-
+    [Header("Movement")]
     public float moveSpeed = 5f;
 
     public float jumpForce = 10f;
@@ -24,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private float moveInput;
     private bool isGrounded;
-
+    
     void Start()
     {
         playerCamera = Camera.main;
@@ -33,6 +36,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            gunPrefab.SetActive(!gunPrefab.activeSelf);
+
+        }
+
         moveInput = Input.GetAxisRaw("Horizontal");
 
         isGrounded = Physics2D.OverlapCircle(
@@ -70,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
     private void LateUpdate()
@@ -88,6 +98,6 @@ public class PlayerMovement : MonoBehaviour
             smoothSpeed * Time.deltaTime
         );
 
-
+        
     }
 }
