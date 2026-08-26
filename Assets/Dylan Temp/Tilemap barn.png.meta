@@ -5,9 +5,6 @@ TextureImporter:
   - first:
       213: -4062266858038842333
     second: Tilemap barn_0
-  - first:
-      213: -1250878634017415729
-    second: Tilemap barn_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,10 +48,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 256
     resizeAlgorithm: 1
     textureFormat: 4
     textureCompression: 1
@@ -106,10 +103,10 @@ TextureImporter:
       name: Tilemap barn_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 241
-        width: 15
-        height: 15
+        x: 0
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +125,20 @@ TextureImporter:
       name: Tilemap barn_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 241
-        width: 15
-        height: 15
+        x: 32
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fcd1442828cf3aee0800000000000000
-      internalID: -1250878634017415729
+      spriteID: 33f0aeb2a6aa96f42aa9b3aa1cd62e7c
+      internalID: -619509634
       vertices: []
       indices: 
       edges: []
@@ -150,10 +147,10 @@ TextureImporter:
       name: Tilemap barn_2
       rect:
         serializedVersion: 2
-        x: 45
-        y: 241
-        width: 15
-        height: 15
+        x: 64
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,8 +159,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be4f1d3e0361eb4fa4b833a7c7b43fc
-      internalID: -633297313
+      spriteID: e3920408e78184d489fff01c09d81c67
+      internalID: -682099472
       vertices: []
       indices: 
       edges: []
@@ -172,10 +169,10 @@ TextureImporter:
       name: Tilemap barn_3
       rect:
         serializedVersion: 2
-        x: 60
-        y: 241
-        width: 15
-        height: 15
+        x: 0
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0997d135ee230eb4994e7806d28a7f12
-      internalID: 541215134
+      spriteID: 3cb61d9f3429338499f9dbd4d61efadb
+      internalID: -859703036
       vertices: []
       indices: 
       edges: []
@@ -194,10 +191,10 @@ TextureImporter:
       name: Tilemap barn_4
       rect:
         serializedVersion: 2
-        x: 75
-        y: 241
-        width: 15
-        height: 15
+        x: 32
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8614fbac8648d8408f8a95dd11fd47b
-      internalID: -433749574
+      spriteID: df8db222abaacc54690e25833d4c31cb
+      internalID: 414457358
       vertices: []
       indices: 
       edges: []
@@ -216,10 +213,10 @@ TextureImporter:
       name: Tilemap barn_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 226
-        width: 15
-        height: 15
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +225,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79fc124b7c6051e4d8c20c1a6f90b500
-      internalID: 1647040203
+      spriteID: 19a96d1cfa496704f88330f308fd8198
+      internalID: -1736571263
       vertices: []
       indices: 
       edges: []
@@ -238,10 +235,10 @@ TextureImporter:
       name: Tilemap barn_6
       rect:
         serializedVersion: 2
-        x: 15
-        y: 226
-        width: 15
-        height: 15
+        x: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ffd80562fa8e90449d9ba667fa680ec
-      internalID: 1109963356
+      spriteID: d5b2b89762a293842b68e32cf4f8804e
+      internalID: 1491377122
       vertices: []
       indices: 
       edges: []
@@ -260,10 +257,10 @@ TextureImporter:
       name: Tilemap barn_7
       rect:
         serializedVersion: 2
-        x: 30
-        y: 226
-        width: 15
-        height: 15
+        x: 0
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 174b98f3ed72cd54c96692dc2389d30e
-      internalID: -888425875
+      spriteID: 767c47d1518b2b540a3dccedc256af84
+      internalID: -2011168814
       vertices: []
       indices: 
       edges: []
@@ -282,10 +279,10 @@ TextureImporter:
       name: Tilemap barn_8
       rect:
         serializedVersion: 2
-        x: 45
-        y: 226
-        width: 15
-        height: 15
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,8 +291,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5575a55880a27594b99dee8c82265238
-      internalID: 2118534574
+      spriteID: 8a030f42a2b57684d9788842c9a50f4b
+      internalID: 383016295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap barn_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d21935006e954b4bac7971c82ce2f7d
+      internalID: -1330624214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap barn_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3c8e0249651494fadb7c78d770e86a
+      internalID: 128763453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap barn_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec35e9222f761146b816617ab5b745b
+      internalID: -1018574581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap barn_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0873af7a28baf734ea3ce61fb8e29f8e
+      internalID: 1046838191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap barn_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4719f8e743c5d7b448df4fe13ea477f0
+      internalID: 1495330023
       vertices: []
       indices: 
       edges: []
@@ -304,7 +411,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f95aa89fd3656ff45a8b40570c42f194
+    spriteID: d0c4356f104111f47b6825c00803d342
     internalID: 0
     vertices: []
     indices: 
@@ -314,17 +421,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":16.0,"y":16.0},"gridSpriteSize":{"x":15.0,"y":15.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Tilemap barn_0: -4062266858038842333
-      Tilemap barn_1: -1250878634017415729
-      Tilemap barn_2: -633297313
-      Tilemap barn_3: 541215134
-      Tilemap barn_4: -433749574
-      Tilemap barn_5: 1647040203
-      Tilemap barn_6: 1109963356
-      Tilemap barn_7: -888425875
-      Tilemap barn_8: 2118534574
+      Tilemap barn_1: -619509634
+      Tilemap barn_10: 128763453
+      Tilemap barn_11: -1018574581
+      Tilemap barn_12: 1046838191
+      Tilemap barn_13: 1495330023
+      Tilemap barn_2: -682099472
+      Tilemap barn_3: -859703036
+      Tilemap barn_4: 414457358
+      Tilemap barn_5: -1736571263
+      Tilemap barn_6: 1491377122
+      Tilemap barn_7: -2011168814
+      Tilemap barn_8: 383016295
+      Tilemap barn_9: -1330624214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
