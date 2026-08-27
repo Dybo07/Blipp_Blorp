@@ -33,6 +33,7 @@ public class EnemyProjectileScript : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
+            player.GetComponent<PlayerMovement>().hitPoints -= 1;
             Destroy(gameObject);
         }
     }

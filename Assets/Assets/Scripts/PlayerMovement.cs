@@ -21,13 +21,14 @@ public class PlayerMovement : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
     public float fallMultiplier = 2.5f;
-
-    public GameObject spritePlayer;
-
-    private Rigidbody2D rb;
     private float moveInput;
     private bool isGrounded;
-    
+
+    [Header("Other")]
+    public GameObject spritePlayer;
+    private Rigidbody2D rb;
+    public float hitPoints;
+
     void Start()
     {
         playerCamera = Camera.main;
@@ -43,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         moveInput = Input.GetAxisRaw("Horizontal");
+
+        spritePlayer.GetComponent<Animator>().SetBool("Walking", moveInput != 0);
 
         isGrounded = Physics2D.OverlapCircle(
             groundCheck.position,
@@ -75,6 +78,12 @@ public class PlayerMovement : MonoBehaviour
             spritePlayer.GetComponent<SpriteRenderer>().flipX = false;
         else if (moveInput < 0)
             spritePlayer.GetComponent<SpriteRenderer>().flipX = true;
+
+        //Hitpoint check
+        if(hitPoints <= 0)
+        {
+          Destroy(gameObject);
+        }
     }
 
     void FixedUpdate()
