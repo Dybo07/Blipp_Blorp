@@ -136,5 +136,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b280d56ff13efe49949351143e560d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPitchforks
-  bullet: {fileID: 2895144449273227257, guid: f21eb5f001a5b954b8fab594db4cf4d3, type: 3}
+  bullet: {fileID: 6139368305789462441, guid: 142bad0f5c258dd418905f567fa43897, type: 3}
   bulletPos: {fileID: 1968809226212907388}
