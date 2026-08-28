@@ -95,7 +95,8 @@ public class PlayerMovement : MonoBehaviour
         //Hitpoint check
         if(hitPoints <= 0)
         {
-          Destroy(gameObject);
+            Destroy(gameObject);
+            UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
         }
     }
 

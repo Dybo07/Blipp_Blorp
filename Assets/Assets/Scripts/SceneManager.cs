@@ -13,11 +13,11 @@ public class SceneManager : MonoBehaviour
         
     }
 
-    void play()
+    public void play()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMap");
     }
-    void quit()
+    public void quit()
     {
         Application.Quit();
     }

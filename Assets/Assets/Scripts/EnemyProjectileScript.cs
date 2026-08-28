@@ -10,7 +10,8 @@ public class EnemyProjectileScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        
+        player = GameObject.FindGameObjectWithTag("Player");
+
         Vector3 direction = player.transform.position - transform.position;
         rb.linearVelocity = (Vector2)direction.normalized * force;
 
