@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 25ee396a00f6f1d4fb5318f2c2ddd848
+guid: bbc5ef8110718fb41962dadd9cc2d738
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 727396756967849983
-    second: alien_laser_hook_0
+      213: 1424656349789614811
+    second: CowSketch-ezgif.com-gif-to-sprite-converter_0
   - first:
-      213: -1807143347630166563
-    second: alien_laser_hook_1
+      213: 3035439822216575682
+    second: CowSketch-ezgif.com-gif-to-sprite-converter_1
+  - first:
+      213: -940180839386741771
+    second: CowSketch-ezgif.com-gif-to-sprite-converter_2
+  - first:
+      213: 7210511130778748566
+    second: CowSketch-ezgif.com-gif-to-sprite-converter_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: alien_laser_hook_0
+      name: CowSketch-ezgif.com-gif-to-sprite-converter_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 26
-        width: 12
-        height: 12
+        x: 0
+        y: 0
+        width: 327
+        height: 235
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffff6dd1f7b381a00800000000000000
-      internalID: 727396756967849983
+      spriteID: bd2f638e66565c310800000000000000
+      internalID: 1424656349789614811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alien_laser_hook_1
+      name: CowSketch-ezgif.com-gif-to-sprite-converter_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 9
-        width: 85
-        height: 46
+        x: 327
+        y: 0
+        width: 327
+        height: 235
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddd2b4233bcbbe6e0800000000000000
-      internalID: -1807143347630166563
+      spriteID: 2ca3b449f6c002a20800000000000000
+      internalID: 3035439822216575682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CowSketch-ezgif.com-gif-to-sprite-converter_2
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 327
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f389b3028ec3f2f0800000000000000
+      internalID: -940180839386741771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CowSketch-ezgif.com-gif-to-sprite-converter_3
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 0
+        width: 327
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6964117aba1e01460800000000000000
+      internalID: 7210511130778748566
       vertices: []
       indices: 
       edges: []
@@ -150,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 68b33f0d4b3835e4c9fdc2d76c2314dd
     internalID: 0
     vertices: []
     indices: 
@@ -158,10 +208,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":327.0,"y":235.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      alien_laser_hook_0: 727396756967849983
-      alien_laser_hook_1: -1807143347630166563
+      CowSketch-ezgif.com-gif-to-sprite-converter_0: 1424656349789614811
+      CowSketch-ezgif.com-gif-to-sprite-converter_1: 3035439822216575682
+      CowSketch-ezgif.com-gif-to-sprite-converter_2: -940180839386741771
+      CowSketch-ezgif.com-gif-to-sprite-converter_3: 7210511130778748566
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
