@@ -10,8 +10,7 @@ public class EnemyProjectileScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Player");
-
+        
         Vector3 direction = player.transform.position - transform.position;
         rb.linearVelocity = (Vector2)direction.normalized * force;
 
@@ -22,6 +21,7 @@ public class EnemyProjectileScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         timer += Time.deltaTime;
 
         if(timer > 4)
