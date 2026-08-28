@@ -10,6 +10,8 @@ public class GunController : MonoBehaviour
     public GameObject bullet;
     public Transform shootPos;
 
+    private AudioSource audioSourceGun;
+    public AudioClip shootSound;
 
     void Start()
     {
@@ -41,6 +43,8 @@ public class GunController : MonoBehaviour
             GameObject newBullet = Instantiate(bullet, shootPos.position, Quaternion.identity);
 
             newBullet.GetComponent<PlayerProjectile>().SetDirection(shootDirection);
+
+            audioSourceGun.PlayOneShot(shootSound);
         }
 
     }

@@ -138,5 +138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GunController
   orbitPoint: {fileID: 0}
   distanceFromPlayer: 1
-  bullet: {fileID: 0}
-  shootPos: {fileID: 0}
+  bullet: {fileID: 1248388585222680196, guid: 015a7647638de01459e0af771912d657, type: 3}
+  shootPos: {fileID: 2260562835845857973}
+  shootSound: {fileID: 8300000, guid: ce9101706baec4c4da6b3aa31d47e6d1, type: 3}

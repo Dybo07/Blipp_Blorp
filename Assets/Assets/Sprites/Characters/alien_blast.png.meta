@@ -166,12 +166,12 @@ TextureImporter:
       name: alien_blast_0
       rect:
         serializedVersion: 2
-        x: 184
-        y: 39
-        width: 79
-        height: 154
+        x: 12
+        y: 0
+        width: 130
+        height: 234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,12 +188,12 @@ TextureImporter:
       name: alien_blast_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 41
-        width: 81
-        height: 150
+        x: 142
+        y: 0
+        width: 130
+        height: 234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: alien_blast_2
       rect:
         serializedVersion: 2
-        x: 312
-        y: 191
-        width: 14
-        height: 19
+        x: 272
+        y: 0
+        width: 130
+        height: 234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -232,12 +232,12 @@ TextureImporter:
       name: alien_blast_3
       rect:
         serializedVersion: 2
-        x: 442
-        y: 177
-        width: 28
-        height: 24
+        x: 402
+        y: 0
+        width: 130
+        height: 234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,407 +250,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: alien_blast_4
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 172
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06e849078554aa580800000000000000
-      internalID: -8815157074476102048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_5
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 183
-        width: 11
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fc7043c8da1a86c0800000000000000
-      internalID: -4140467389122708231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_6
-      rect:
-        serializedVersion: 2
-        x: 441
-        y: 171
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab1a708fe8eac5370800000000000000
-      internalID: 8312710941288931770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_7
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 70
-        width: 106
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 772742b67e9d32ca0800000000000000
-      internalID: -6042746687042850185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_8
-      rect:
-        serializedVersion: 2
-        x: 431
-        y: 130
-        width: 43
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 191d9894928f7c070800000000000000
-      internalID: 8126736908824465809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_9
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 120
-        width: 17
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65b5612fc92c183c0800000000000000
-      internalID: -4358988984985691306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_10
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 111
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64ec6e1531fff5f60800000000000000
-      internalID: 8025413519441055302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_11
-      rect:
-        serializedVersion: 2
-        x: 158
-        y: 112
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da49e2f9e50d512d0800000000000000
-      internalID: -3308509246417627987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_12
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 112
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 726b35433c2bb1d00800000000000000
-      internalID: 944545098330519079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_13
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 112
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1743a450a7d33cc90800000000000000
-      internalID: -7150804189050162063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_14
-      rect:
-        serializedVersion: 2
-        x: 468
-        y: 120
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fda730e248880300800000000000000
-      internalID: 218574402738433528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_15
-      rect:
-        serializedVersion: 2
-        x: 463
-        y: 106
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d87bd766ab8a1b380800000000000000
-      internalID: -8957192665326307443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_16
-      rect:
-        serializedVersion: 2
-        x: 431
-        y: 65
-        width: 43
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc93dfb5ee0991790800000000000000
-      internalID: -7558851146144728629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_17
-      rect:
-        serializedVersion: 2
-        x: 437
-        y: 50
-        width: 15
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6dcc19ef51d00cd0800000000000000
-      internalID: -2593843175502328466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_18
-      rect:
-        serializedVersion: 2
-        x: 442
-        y: 31
-        width: 28
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 982d22f6d3177b1d0800000000000000
-      internalID: -3335072490373066103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_19
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 28
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eccc66b1531b05850800000000000000
-      internalID: 6363781115125615822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_20
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 25
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da6e15faa3848a500800000000000000
-      internalID: 407655183163713197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: alien_blast_21
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 20
-        width: 11
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 069f0bcba799ff4c0800000000000000
-      internalID: -4251510770783684256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c16ea73858b1c5a4d8ce5b2016517f67
     internalID: 0
     vertices: []
     indices: 
@@ -658,30 +262,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":130.0,"y":234.0},"gridSpriteOffset":{"x":12.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       alien_blast_0: -7059671437033609972
       alien_blast_1: -3531226971468147509
-      alien_blast_10: 8025413519441055302
-      alien_blast_11: -3308509246417627987
-      alien_blast_12: 944545098330519079
-      alien_blast_13: -7150804189050162063
-      alien_blast_14: 218574402738433528
-      alien_blast_15: -8957192665326307443
-      alien_blast_16: -7558851146144728629
-      alien_blast_17: -2593843175502328466
-      alien_blast_18: -3335072490373066103
-      alien_blast_19: 6363781115125615822
       alien_blast_2: 6386900887382061220
-      alien_blast_20: 407655183163713197
-      alien_blast_21: -4251510770783684256
       alien_blast_3: -448994016833304643
-      alien_blast_4: -8815157074476102048
-      alien_blast_5: -4140467389122708231
-      alien_blast_6: 8312710941288931770
-      alien_blast_7: -6042746687042850185
-      alien_blast_8: 8126736908824465809
-      alien_blast_9: -4358988984985691306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
