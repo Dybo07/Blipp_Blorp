@@ -35,15 +35,14 @@ public class PlayerProjectile : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Enemy"))
+        if(other.gameObject.CompareTag("Enemy")||other.gameObject.CompareTag("Obstacle"))
         {
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = 0f;
 
             rb.bodyType = RigidbodyType2D.Kinematic;
             anim.enabled = true;
-            Debug.Log("Hit Enemy");
-                        StartCoroutine(DestroyAfterAnimation());
+            StartCoroutine(DestroyAfterAnimation());
            
         }
         IEnumerator DestroyAfterAnimation()
