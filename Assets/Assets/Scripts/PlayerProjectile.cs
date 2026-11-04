@@ -35,15 +35,24 @@ public class PlayerProjectile : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Enemy")||other.gameObject.CompareTag("Obstacle"))
+        if(other.gameObject.CompareTag("Enemy"))
         {
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = 0f;
+            other.gameObject.GetComponent<EnemyPitchforks>().farmerHP -= 1;
 
             rb.bodyType = RigidbodyType2D.Kinematic;
             anim.enabled = true;
             StartCoroutine(DestroyAfterAnimation());
            
+        }
+        if(other.gameObject.CompareTag("Obstacle"))
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = 0f;
+            rb.bodyType = RigidbodyType2D.Kinematic;
+            anim.enabled = true;
+            StartCoroutine(DestroyAfterAnimation());
         }
         IEnumerator DestroyAfterAnimation()
         {

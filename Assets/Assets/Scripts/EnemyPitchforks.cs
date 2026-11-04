@@ -9,6 +9,7 @@ public class EnemyPitchforks : MonoBehaviour
     private GameObject player;
     private AudioSource audioSourceEnemy;
     public AudioClip pitchForkThrow;
+    public float farmerHP = 3;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,7 +21,10 @@ public class EnemyPitchforks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(farmerHP <= 0)
+        {
+            Destroy(gameObject);
+        }
 
         float distance = Vector2.Distance(transform.position, player.transform.position);
 

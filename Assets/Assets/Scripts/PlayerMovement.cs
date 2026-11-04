@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     public float hitPoints;
 
+    public GameObject gameManager;
 
 
 
@@ -121,6 +122,18 @@ public class PlayerMovement : MonoBehaviour
             smoothSpeed * Time.deltaTime
         );
 
-        
+
+        //Cow pickup system
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Cow"))
+            {
+                gameManager.GetComponent<SceneManager>().cowCount++;
+                Destroy(other.gameObject);
+            }
+        }
+
+
     }
 }

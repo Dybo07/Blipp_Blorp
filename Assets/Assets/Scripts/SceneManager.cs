@@ -3,6 +3,9 @@ using UnityEngine;
 public class SceneManager : MonoBehaviour
 {
 
+    public float cowCount;
+    public float cowQuota;   
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
@@ -13,6 +16,7 @@ public class SceneManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
 
     }
 
