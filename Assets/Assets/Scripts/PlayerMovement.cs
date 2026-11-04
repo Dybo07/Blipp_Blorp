@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private GameManager gameManager;
     [Header("Gun")]
     public GameObject gunPrefab;
 
@@ -35,9 +36,6 @@ public class PlayerMovement : MonoBehaviour
     public GameObject spritePlayer;
     private Rigidbody2D rb;
     public float hitPoints;
-
-    public GameObject gameManager;
-
 
 
     void Start()
@@ -123,16 +121,7 @@ public class PlayerMovement : MonoBehaviour
         );
 
 
-        //Cow pickup system
-
-        void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.gameObject.CompareTag("Cow"))
-            {
-                gameManager.GetComponent<SceneManager>().cowCount++;
-                Destroy(other.gameObject);
-            }
-        }
+        
 
 
     }

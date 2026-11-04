@@ -44,7 +44,7 @@ public class GunController : MonoBehaviour
 
             newBullet.GetComponent<PlayerProjectile>().SetDirection(shootDirection);
 
-            audioSourceGun.PlayOneShot(shootSound);
+            //audioSourceGun.PlayOneShot(shootSound);
         }
 
     }

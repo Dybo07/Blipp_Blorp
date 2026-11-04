@@ -3,8 +3,8 @@ using UnityEngine;
 public class SceneManager : MonoBehaviour
 {
 
-    public float cowCount;
-    public float cowQuota;   
+    
+
 
     private void Start()
     {

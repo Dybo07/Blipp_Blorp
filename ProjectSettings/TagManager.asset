@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Obstacle
+  - Quota
+  - SceneManager
   layers:
   - Default
   - TransparentFX
