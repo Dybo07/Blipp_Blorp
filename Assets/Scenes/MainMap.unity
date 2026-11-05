@@ -18512,6 +18512,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &686056296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3549840630642934347, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_Name
+      value: Cow (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.065542
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5773022
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
 --- !u!1001 &759935476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18573,6 +18630,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64ec1d75531a80245acbcc925ad4a1c1, type: 3}
+--- !u!1001 &886416610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3549840630642934347, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_Name
+      value: Cow (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.72942
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2109842
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
 --- !u!1001 &988464846
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18691,11 +18805,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.929851
+      value: -7.13
       objectReference: {fileID: 0}
     - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.923942
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 7331962176914696059, guid: 077931357fe9cc8479c8943fe8b4311c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22875,3 +22989,5 @@ SceneRoots:
   - {fileID: 1940539786}
   - {fileID: 1914681619}
   - {fileID: 1593045694}
+  - {fileID: 686056296}
+  - {fileID: 886416610}
