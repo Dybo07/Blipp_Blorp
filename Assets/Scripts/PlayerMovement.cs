@@ -40,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        gameManager = GameObject.FindGameObjectWithTag("SceneManager").GetComponent<GameManager>();
         playerCamera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         audioSourcePlayer = GetComponent<AudioSource>();
@@ -53,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        moveInput = Input.GetAxisRaw("Horizontal");
+        
 
         spritePlayer.GetComponent<Animator>().SetBool("Walking", moveInput != 0);
         
@@ -101,7 +102,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        
+        //Movement sideways
+        moveInput = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
     private void LateUpdate()
@@ -119,10 +121,6 @@ public class PlayerMovement : MonoBehaviour
             targetPosition,
             smoothSpeed * Time.deltaTime
         );
-
-
-        
-
 
     }
 }
