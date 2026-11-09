@@ -39,6 +39,7 @@ public class PlayerProjectile : MonoBehaviour
         {
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = 0f;
+            other.gameObject.GetComponent<EnemyPitchforks>().hitFlash();
             other.gameObject.GetComponent<EnemyPitchforks>().farmerHP -= 1;
 
             rb.bodyType = RigidbodyType2D.Kinematic;
@@ -46,7 +47,7 @@ public class PlayerProjectile : MonoBehaviour
             StartCoroutine(DestroyAfterAnimation());
            
         }
-        if(other.gameObject.CompareTag("Obstacle"))
+        if(other.gameObject.CompareTag("Obstacle"))//||other.gameObject.CompareTag("Ground"))
         {
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = 0f;

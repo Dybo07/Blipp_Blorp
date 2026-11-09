@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.InputSystem;
@@ -36,10 +38,13 @@ public class PlayerMovement : MonoBehaviour
     public GameObject spritePlayer;
     private Rigidbody2D rb;
     public float hitPoints;
+    public Material Default;
+    public Material Flash;
 
 
     void Start()
     {
+        spritePlayer.GetComponent<SpriteRenderer>().material = Default;
         gameManager = GameObject.FindGameObjectWithTag("SceneManager").GetComponent<GameManager>();
         playerCamera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
@@ -122,5 +127,15 @@ public class PlayerMovement : MonoBehaviour
             smoothSpeed * Time.deltaTime
         );
 
+    }
+    public void hitFlash()
+    {
+        StartCoroutine(hitFlashCoroutine());
+    }
+    public IEnumerator hitFlashCoroutine()
+    {
+        spritePlayer.GetComponent<SpriteRenderer>().material = Flash;
+        yield return new WaitForSeconds(0.1f);
+        spritePlayer.GetComponent<SpriteRenderer>().material = Default;
     }
 }

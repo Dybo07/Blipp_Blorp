@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using static UnityEditorInternal.ReorderableList;
 
 public class EnemyPitchforks : MonoBehaviour
 {
@@ -11,9 +13,13 @@ public class EnemyPitchforks : MonoBehaviour
     public AudioClip pitchForkThrow;
     public float farmerHP = 3;
 
+    public Material Default;
+    public Material Flash;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        gameObject.GetComponent<SpriteRenderer>().material = Default;
         player = GameObject.FindGameObjectWithTag("Player");
         audioSourceEnemy = GetComponent<AudioSource>();
     }
@@ -44,6 +50,16 @@ public class EnemyPitchforks : MonoBehaviour
     {
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
         audioSourceEnemy.PlayOneShot(pitchForkThrow);
+    }
+    public void hitFlash()
+    {
+        StartCoroutine(hitFlashCoroutine());
+    }
+    public IEnumerator hitFlashCoroutine()
+    {
+        gameObject.GetComponent<SpriteRenderer>().material = Flash;
+        yield return new WaitForSeconds(0.1f);
+        gameObject.GetComponent<SpriteRenderer>().material = Default;
     }
 
 }

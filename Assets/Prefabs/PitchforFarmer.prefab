@@ -40,8 +40,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3723444286929885630}
-  - component: {fileID: 8724818134434961013}
   - component: {fileID: 8677852905670136353}
+  - component: {fileID: 8724818134434961013}
   - component: {fileID: 8177488431194011153}
   - component: {fileID: -1512788800584463339}
   m_Layer: 0
@@ -67,6 +67,24 @@ Transform:
   - {fileID: 1968809226212907388}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8677852905670136353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8389151559180114571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b280d56ff13efe49949351143e560d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyPitchforks
+  bullet: {fileID: 6139368305789462441, guid: 142bad0f5c258dd418905f567fa43897, type: 3}
+  bulletPos: {fileID: 1968809226212907388}
+  pitchForkThrow: {fileID: 8300000, guid: c8d3e14f33d01214f98b4ef2993b1981, type: 3}
+  farmerHP: 3
+  Default: {fileID: 2100000, guid: 614a02200bce61d44ba1473596bab443, type: 2}
+  Flash: {fileID: 2100000, guid: a99ba8a04a1abf74597b9df44dc3e691, type: 2}
 --- !u!212 &8724818134434961013
 SpriteRenderer:
   serializedVersion: 2
@@ -126,21 +144,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &8677852905670136353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8389151559180114571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b280d56ff13efe49949351143e560d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyPitchforks
-  bullet: {fileID: 6139368305789462441, guid: 142bad0f5c258dd418905f567fa43897, type: 3}
-  bulletPos: {fileID: 1968809226212907388}
-  pitchForkThrow: {fileID: 8300000, guid: c8d3e14f33d01214f98b4ef2993b1981, type: 3}
 --- !u!61 &8177488431194011153
 BoxCollider2D:
   m_ObjectHideFlags: 0

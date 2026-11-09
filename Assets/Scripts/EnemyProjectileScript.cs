@@ -34,6 +34,7 @@ public class EnemyProjectileScript : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
+            player.GetComponent<PlayerMovement>().hitFlash();
             player.GetComponent<PlayerMovement>().hitPoints -= 1;
             Destroy(gameObject);
         }

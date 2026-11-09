@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_Sprite: {fileID: 922142804924811750, guid: 91613181b22a2cb47a4d53f91b41c4f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -186,9 +186,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4689268167769753729}
+  - component: {fileID: 6958384967187144457}
   - component: {fileID: 2423608469818191170}
   - component: {fileID: 8057034564625955268}
-  - component: {fileID: 6958384967187144457}
   - component: {fileID: 2742000036596614692}
   m_Layer: 0
   m_Name: Player
@@ -215,6 +215,40 @@ Transform:
   - {fileID: 7121218752190803499}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6958384967187144457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191945602439889973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be498448ecf8514484f658f2aa35bd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  gameManager: {fileID: 0}
+  gunPrefab: {fileID: 5012672153649259510}
+  playerCamera: {fileID: 0}
+  cameraOffset: {x: 0, y: 0}
+  smoothSpeed: 10
+  moveSpeed: 5
+  jumpForce: 10
+  jumpCutMultiplier: 0.5
+  groundCheck: {fileID: 8441154531695748382}
+  groundCheckRadius: 0.3
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  fallMultiplier: 1.5
+  jumpSound:
+  - {fileID: 8300000, guid: 8cdb68e7bf1f73a4bbc82d88bc973b3b, type: 3}
+  - {fileID: 8300000, guid: c43651c3688da9047a88e570f02438f1, type: 3}
+  walking: {fileID: 8300000, guid: 3197a6b098207464e8d4c44b0b6dbe3d, type: 3}
+  spritePlayer: {fileID: 1935842885852681113}
+  hitPoints: 5
+  Default: {fileID: 2100000, guid: 614a02200bce61d44ba1473596bab443, type: 2}
+  Flash: {fileID: 2100000, guid: a99ba8a04a1abf74597b9df44dc3e691, type: 2}
 --- !u!61 &2423608469818191170
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -288,38 +322,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6958384967187144457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6191945602439889973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3be498448ecf8514484f658f2aa35bd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  gameManager: {fileID: 0}
-  gunPrefab: {fileID: 5012672153649259510}
-  playerCamera: {fileID: 0}
-  cameraOffset: {x: 0, y: 0}
-  smoothSpeed: 10
-  moveSpeed: 5
-  jumpForce: 10
-  jumpCutMultiplier: 0.5
-  groundCheck: {fileID: 8441154531695748382}
-  groundCheckRadius: 0.3
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  fallMultiplier: 1.5
-  jumpSound:
-  - {fileID: 8300000, guid: 8cdb68e7bf1f73a4bbc82d88bc973b3b, type: 3}
-  - {fileID: 8300000, guid: c43651c3688da9047a88e570f02438f1, type: 3}
-  walking: {fileID: 8300000, guid: 3197a6b098207464e8d4c44b0b6dbe3d, type: 3}
-  spritePlayer: {fileID: 1935842885852681113}
-  hitPoints: 5
 --- !u!82 &2742000036596614692
 AudioSource:
   m_ObjectHideFlags: 0
